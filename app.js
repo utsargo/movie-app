@@ -2,7 +2,7 @@ const MovBaseUrl = "https://api.themoviedb.org/3/movie/";
 const ApiKey = "298f5c948b209ca206b7885a546e697e";
 
 function buildUrl(url) {
-    return MovBaseUrl + url + ".json?api-key=" + ApiKey
+    return MovBaseUrl + url + "?api-key=" + ApiKey
 }
 
 const vm = new Vue({
