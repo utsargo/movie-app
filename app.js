@@ -11,7 +11,7 @@ const vm = new Vue({
         results: []
     },
     mounted() {
-        this.getPosts('550');
+        this.getPosts('discover');
     },
     methods: {
         getPosts(section) {
